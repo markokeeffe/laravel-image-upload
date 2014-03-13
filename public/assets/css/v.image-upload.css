@@ -1,0 +1,23 @@
+#VImageUploader .modal-body img {
+  max-width: none;
+}
+#VImageUploader .focal-button-container {
+  min-height: 40px;
+}
+#VImageUploader .focal-container {
+  position: relative;
+}
+#VImageUploader .setting-focal-point {
+  cursor: crosshair;
+}
+#VImageUploader .focal-point {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-top: -30px;
+  margin-left: -15px;
+  background: url(../img/crosshairs.png);
+}
+#VImageUploader .btn-md {
+  width: 100px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "markokeeffe/image-upload",
+  "description": "",
+  "authors": [
+    {
+      "name": "Mark O'Keeffe",
+      "email": "mark.ok@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "illuminate/support": "4.0.x",
+    "natxet/CssMin": "dev-master",
+    "lmammino/jsmin4assetic": "1.0.*",
+    "kriswallsmith/assetic": "1.1.*",
+    "intervention/image": "dev-master",
+    "rackspace/php-opencloud": "V1.6.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/migrations",
+      "src/controllers",
+      "src/models"
+    ],
+    "psr-0": {
+      "MOK\\ImageUpload": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

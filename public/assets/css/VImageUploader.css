@@ -1,0 +1,34 @@
+#VImageUploaderForm .hidden {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: -5000px;
+}
+#VImageUploader {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#VImageUploader .modal-body {
+  max-height: none;
+}
+#VImageUploader .modal-body img {
+  max-width: none;
+}
+
+#VImageUploader .focal-container {
+  position: relative;
+}
+#VImageUploader .setting-focal-point {
+  cursor: crosshair;
+}
+#VImageUploader .focal-point {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.5);
+}
+#VImageUploader .set-focal-point .save,
+#VImageUploader .set-crop .save {
+  display: none;
+}
